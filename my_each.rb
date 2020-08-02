@@ -1,10 +1,10 @@
-def my_each(collection)
+def my_each(array)
   i=0
-  while i < collection.length
-    yield(collection)
+  while i < array.length
+    yield(array)
     i+=1
   end
-  collection
+  array
 end
 
 
