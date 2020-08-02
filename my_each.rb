@@ -4,7 +4,7 @@ def my_each(array)
     yield(array)
     i+=1
   end
-  array
+  array.join
 end
 
 
