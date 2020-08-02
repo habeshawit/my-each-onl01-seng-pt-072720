@@ -4,6 +4,6 @@ def my_each(collection)
     yield(collection)
     i+=1
   end
-  array
+  collection
 end
 
