@@ -4,11 +4,6 @@ def my_each(array)
     yield(array)
     i+=1
   end
-  array.join
+  array
 end
 
-
-collection = [1,2,3,4]
-my_each(collection) do |i|
-  return i
-end
